@@ -6,6 +6,12 @@ import oneDollarImg from "../assets/dollar.png";
 import silverCrescentImg from "../assets/silver.png";
 import MediBookImg from "../assets/MediBook.png";
 import MyAppImg from "../assets/MyApp.png";
+import DarKhash from "../assets/DarKhash.png";
+import Freelancehub from "../assets/Freelancehub.png";
+
+
+
+
 
 
 export default function Projects() {
@@ -36,6 +42,15 @@ export default function Projects() {
         "A discount e-commerce platform that enables users to buy affordable products, and admins to manage orders, products, and users — featuring secure payments and delivery tracking.",
     },
     {
+      title: "DarKhash",
+      image: DarKhash,
+      link: "https://darkhash.pythonanywhere.com/",
+      description:
+        "A luxury jewelry website homepage for Lux Gems, showcasing curated fine jewelry in Pakistan with a dark elegant theme, gold accents, search filters, showroom access, account registration, and WhatsApp support for customer inquiries.",
+    },
+
+
+    {
       title: "Silver Crescent",
       image: silverCrescentImg,
       link: "https://umerhakim1.pythonanywhere.com/",
@@ -55,6 +70,13 @@ export default function Projects() {
       link: "https://umer.pythonanywhere.com/",
       description:
         "The best place where you can store your personal data as well as your frieds data safe and secure.",
+    },
+    {
+      title: "Freelancehub",
+      image: Freelancehub,
+      link: "https://freelancehub.pythonanywhere.com/",
+      description:
+        "A clean freelance marketplace dashboard for Freelance Hub, where freelancers can browse available projects, search and filter jobs by title or skill, and view key details such as client name, budget, deadline, required technologies, proposal count, and project status.",
     },
   ];
 
