@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -32,7 +33,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="hover:text-gray-200 transition"
           >
-            <FaTwitter />
+            <FaXTwitter />
           </a>
           <a
             href="mailto:umercs123@gmail.com"

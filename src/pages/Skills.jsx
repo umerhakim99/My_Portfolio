@@ -10,16 +10,17 @@ import {
   FaProjectDiagram,
   FaLaptopCode,
 } from "react-icons/fa";
+
 import {
   SiDjango,
   SiFlask,
   SiPostgresql,
   SiJavascript,
   SiJinja,
-  SiOpenai,
   SiPostman,
   SiN8N,
 } from "react-icons/si";
+
 import { MdOutlineSecurity } from "react-icons/md";
 import { RiRobot2Line } from "react-icons/ri";
 
@@ -28,7 +29,7 @@ const Skills = () => {
     { name: "Python", icon: <FaPython className="text-yellow-500" /> },
     { name: "Django", icon: <SiDjango className="text-green-700" /> },
     { name: "Flask", icon: <SiFlask className="text-gray-700" /> },
-    { name: "REST APIs", icon: <SiOpenai className="text-blue-600" /> },
+    { name: "REST APIs", icon: <FaProjectDiagram className="text-blue-600" /> },
     { name: "SQL", icon: <FaDatabase className="text-indigo-600" /> },
     { name: "Git", icon: <FaGitAlt className="text-orange-500" /> },
     { name: "Automation", icon: <FaCogs className="text-red-500" /> },
@@ -38,13 +39,22 @@ const Skills = () => {
     { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
     { name: "Linux", icon: <FaLinux className="text-black" /> },
     { name: "Docker", icon: <FaDocker className="text-blue-500" /> },
-    { name: "Cyber Security", icon: <MdOutlineSecurity className="text-red-700" /> },
+    {
+      name: "Cyber Security",
+      icon: <MdOutlineSecurity className="text-red-700" />,
+    },
     { name: "N8N", icon: <SiN8N className="text-red-700" /> },
-    { name: "Machine Learning", icon: <RiRobot2Line className="text-purple-600" /> },
+    {
+      name: "Machine Learning",
+      icon: <RiRobot2Line className="text-purple-600" />,
+    },
     { name: "Data Structure", icon: <FaDatabase className="text-teal-600" /> },
     { name: "GitHub", icon: <FaGithub className="text-gray-600" /> },
     { name: "APIs", icon: <FaProjectDiagram className="text-blue-600" /> },
-    { name: "Code Testing & Debugging", icon: <FaLaptopCode className="text-green-600" /> },
+    {
+      name: "Code Testing & Debugging",
+      icon: <FaLaptopCode className="text-green-600" />,
+    },
   ];
 
   return (
