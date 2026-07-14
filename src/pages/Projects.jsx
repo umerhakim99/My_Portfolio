@@ -8,6 +8,7 @@ import MediBookImg from "../assets/MediBook.png";
 import MyAppImg from "../assets/MyApp.png";
 import DarKhash from "../assets/DarKhash.png";
 import Freelancehub from "../assets/Freelancehub.png";
+import CarSystem from "../assets/home.png";
 
 
 
@@ -77,6 +78,14 @@ export default function Projects() {
       link: "https://freelancehub.pythonanywhere.com/",
       description:
         "A clean freelance marketplace dashboard for Freelance Hub, where freelancers can browse available projects, search and filter jobs by title or skill, and view key details such as client name, budget, deadline, required technologies, proposal count, and project status.",
+    },
+
+    {
+      title: "CarSystem",
+      image: CarSystem,
+      link: "https://gemluxe.pythonanywhere.com/",
+      description:
+        "A clean marketplace dashboard for Cars owner, Car Sellers Drivers and Renter, where they can browse available projects, search and filter cars by title or name, and view key details car name, budget, deadline and its status.",
     },
   ];
 
